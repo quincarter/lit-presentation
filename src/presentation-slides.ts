@@ -715,6 +715,25 @@ export class PresentationSlides extends LitElement {
     </div>
   </section>
 
+  <section id="slide48">
+    <div class="o-wrapper">
+      <h1>Host App MFE Demo</h1>
+    </div>
+  </section>
+
+  <section id="slide49">
+    <div class="o-wrapper">
+      <h1>Read the Medium Article</h1>
+      <img src="src/assets/qr-code-multi-threading-the-web.png" alt="multi threading the web qr code" />
+    </div>
+  </section>
+
+  <section id="slide50">
+    <div class="o-wrapper">
+      <img src="src/assets/qanda.jpeg" alt="Q & A" />
+    </div>
+  </section>
+
   <section id="start">
     <div class="start-container">
       <img
