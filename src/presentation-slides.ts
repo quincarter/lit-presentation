@@ -458,6 +458,7 @@ export class PresentationSlides extends LitElement {
     <div class="o-wrapper">
       <h1>Hungry for more?</h1>
       <img
+      class="qr-code"
         src="src/assets/qr-code-lit-context-demo-github.png"
         alt="qr for lit context"
       />
@@ -468,6 +469,7 @@ export class PresentationSlides extends LitElement {
     <div class="o-wrapper">
       <h1>Read the Medium article:</h1>
       <img
+      class="qr-code"
         src="src/assets/understanding-component-state-qr-code.png"
         alt="qr for lit context medium article"
       />
@@ -724,7 +726,7 @@ export class PresentationSlides extends LitElement {
   <section id="slide49">
     <div class="o-wrapper">
       <h1>Read the Medium Article</h1>
-      <img src="src/assets/qr-code-multi-threading-the-web.png" alt="multi threading the web qr code" />
+      <img class="qr-code" src="src/assets/qr-code-multi-threading-the-web.png" alt="multi threading the web qr code" />
     </div>
   </section>
 
