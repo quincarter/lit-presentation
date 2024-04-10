@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit + TS</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="/src/presentation-slides.ts"></script>
+    <style>
+      :root {
+        --tx: 0;
+        --ty: 0;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+        font-family: 'Optimist', serif;
+      }
+
+      html {
+        box-sizing: border-box;
+        height: 100%;
+      }
+
+      body {
+        font-family: 'Optimist', 'iA Writer Duospace',
+          'iA Writer Duospace Regular', Courier, monospace;
+        height: 100%;
+        font-size: calc(0.75em + 2vmin);
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(31 36 48);
+        color: rgba(255, 255, 255, 0.87);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./slide-navigation.js"></script>
+    <presentation-slides> </presentation-slides>
+  </body>
+</html>
