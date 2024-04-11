@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "deploy": "yarn build && yarn gh-pages -d ./dist",
+    "build": "rimraf dist && tsc && vite build && mkdir -p ./dist/src/assets && cp -a src/assets/* dist/src/assets/",
     "preview": "vite preview"
   },
   "dependencies": {
     "lit": "^3.1.2"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "rimraf": "^5.0.5",
     "typescript": "^5.2.2",
     "vite": "^5.2.8"
   }

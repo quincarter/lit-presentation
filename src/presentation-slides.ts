@@ -3,7 +3,7 @@ import { customElement } from "lit/decorators.js";
 import { _toConsumableArray } from "./utilities/helpers";
 import "../fullscreen-handler";
 import "./examples/button.example";
-import viteLogo from "../public/vite.svg";
+import viteLogo from "../public/lit-vite.svg";
 
 /**
  * An example element.
@@ -740,7 +740,7 @@ export class PresentationSlides extends LitElement {
     <div class="start-container">
       <img
         class="start-image"
-        src="/src/assets/computer-reading.png"
+        src="src/assets/computer-reading.png"
         alt="Quin Reading"
       />
       <h1>Welcome! Have a Seat and we will get started shortly!</h1>
