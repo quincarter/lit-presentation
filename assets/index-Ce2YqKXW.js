@@ -689,7 +689,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     <div class="start-container">
       <img
         class="start-image"
-        src="/src/assets/computer-reading.png"
+        src="src/assets/computer-reading.png"
         alt="Quin Reading"
       />
       <h1>Welcome! Have a Seat and we will get started shortly!</h1>
